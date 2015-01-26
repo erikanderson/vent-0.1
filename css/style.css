@@ -4,32 +4,58 @@ html, body, .container{
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: #95a5a6;
+  /*background: #95a5a6;*/
   box-sizing: border-box;
 }
 
 .container {
   width: 1000px;
   margin: 0 auto;
-  background: #16a085;
+ /* background: #16a085;*/
 }
 
 .sidebar {
   width: 200px;
   height: 100%;
-  background: #e74c3c;
+ /* background: #e74c3c;*/
   margin-left: 10px;
   position: fixed;
+  background: #fff;
+  z-index: 99;
 }
 
 .logo {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 50px;
+}
+
+.navlist li {
+  list-style: none;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.userSignUp li {
+  margin-bottom: 5px;
+  list-style: none;
+}
+
+.newItemForm {
+  width: 300px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+.filterItem {
+  width: 300px;
+  float: left;
+  margin-left: 5px;
 }
 
 .content {
   width: 750px;
   height: 100%;
-  background: #2980b9;
+  /*background: #2980b9;*/
   margin-left: 225px;
 }
+
